@@ -6,7 +6,7 @@ This project is typescript version of examples in https://svelte.dev/tutorial, a
 ## Run
 
 ```
-> npm run install
+> npm install
 > npm run dev
 ```
 
@@ -16,6 +16,23 @@ Change path in ```main.js``` to switch to another example, default one is:
 import App from './examples/10-transitions/custom-css-transitions/App.svelte';
 ```
 
+### Need help
+
+If build failed, see 
+* https://github.com/mistlog/svelte-draft-template/issues/3
+* https://github.com/sveltejs/svelte/issues/3677#issuecomment-585496141.
+
+Temp fix:
+
+```
+> npm install
+> npm run transcribe:watch
+```
+
+then, in another window:
+```
+> npx rollup -c -w
+```
 
 ## License
 
