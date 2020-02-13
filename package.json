@@ -1,0 +1,34 @@
+{
+  "name": "svelte-app",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npm run transcribe && rollup -c",
+    "dev": "concurrently \"npm run transcribe:watch\" \"rollup -c -w\"",
+    "start": "sirv public",
+    "clean": "sd ./src --clean",
+    "transcribe": "sd ./src",
+    "transcribe:watch": "sd ./src -w"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^11.0.0",
+    "@rollup/plugin-node-resolve": "^7.0.0",
+    "concurrently": "^5.1.0",
+    "filewalker": "^0.1.3",
+    "fs-extra": "^8.1.0",
+    "rollup": "^1.20.0",
+    "rollup-plugin-livereload": "^1.0.0",
+    "rollup-plugin-svelte": "^5.0.3",
+    "rollup-plugin-terser": "^5.1.2",
+    "svelte": "^3.0.0",
+    "svelte-draft": "^0.1.0",
+    "svelte-types": "0.0.2",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "elizabot": "0.0.2",
+    "mapbox-gl": "^1.7.0",
+    "marked": "^0.8.0",
+    "sirv-cli": "^0.4.4"
+  }
+}
