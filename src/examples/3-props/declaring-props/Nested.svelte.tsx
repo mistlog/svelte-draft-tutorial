@@ -1,9 +1,9 @@
-export interface IAppProps
+export interface INestedProps
 {
     answer: number;
 }
 
-export default function App(props: IAppProps)
+export default function Nested(props: INestedProps)
 {
     const { answer } = props;
     
