@@ -2,12 +2,9 @@
   "name": "svelte-app",
   "version": "1.0.0",
   "scripts": {
-    "build": "npm run transcribe && rollup -c",
+    "build": "rollup -c",
     "dev": "rollup -c -w",
-    "start": "sirv public",
-    "clean": "sd ./src --clean",
-    "transcribe": "sd ./src",
-    "transcribe:watch": "sd ./src -w"
+    "start": "sirv public"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^11.0.0",
@@ -15,13 +12,10 @@
     "rollup": "^1.20.0",
     "rollup-plugin-livereload": "^1.0.0",
     "rollup-plugin-svelte": "^5.0.3",
+    "rollup-plugin-svelte-draft": "0.0.2",
     "rollup-plugin-terser": "^5.1.2",
     "svelte": "^3.18.1",
-    "rollup-plugin-svelte-draft": "0.0.1",
-    "svelte-draft": "0.1.1",
-    "svelte-types": "0.0.4",
-    "ts-node": "^8.6.2",
-    "typescript": "^3.7.5"
+    "svelte-types": "0.0.5"
   },
   "dependencies": {
     "elizabot": "0.0.2",
