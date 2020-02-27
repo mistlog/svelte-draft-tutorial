@@ -13,7 +13,7 @@ This project is typescript version of examples in https://svelte.dev/tutorial, a
 Change path in ```main.js``` to switch to another example, default one is:
 
 ``` typescript
-import App from './examples/10-transitions/custom-css-transitions/App.svelte';
+import App from './examples/10-transitions/custom-css-transitions/App';
 ```
 
 ## License
