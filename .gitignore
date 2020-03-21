@@ -1,5 +1,5 @@
 /node_modules/
-/public/build/
+/public/rollup/build
 
 .DS_Store
 *.tgz
