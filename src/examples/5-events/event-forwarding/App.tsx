@@ -1,5 +1,5 @@
-import Outer from "./Outer.svelte";
-import { MessageEvent } from "./Inner.svelte";
+import Outer from "./Outer";
+import { MessageEvent } from "./Inner";
 
 export default function App()
 {

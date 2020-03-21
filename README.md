@@ -8,7 +8,17 @@ Online playground: https://codesandbox.io/s/svelte-draft-tutorial-22mdl
 
 ```shell
 > npm install
+```
+### Use rollup
+
+```shell
 > npm run dev
+```
+
+### Use webpack
+
+```shell
+> npm run webpack:dev
 ```
 
 Change path in ```main.js``` to switch to another example, default one is:
