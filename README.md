@@ -21,7 +21,7 @@ Online playground: https://codesandbox.io/s/svelte-draft-tutorial-22mdl
 > npm run webpack:dev
 ```
 
-Change path in ```main.js``` to switch to another example, default one is:
+Change path in ```main.ts``` to switch to another example, default one is:
 
 ``` typescript
 import App from './examples/10-transitions/custom-css-transitions/App';
