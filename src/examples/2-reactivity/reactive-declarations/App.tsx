@@ -1,38 +1,20 @@
-export default function App()
-{
-    <Count/>;
-
-    let doubled;
-
-    //@ts-ignore
-    <TrackChange />;
-
-    //@ts-ignore
-    <Doubled />;
-}
-
-function Count()
-{
+export default function App() {
     let count = 0;
 
-    function handleClick()
-    {
+    function handleClick() {
         count += 1;
+    }
+
+    let doubled: number;
+
+    {
+        "use watch";
+        doubled = count * 2;
     }
 
     <button onClick={handleClick}>
         Clicked {count} {count === 1 ? 'time' : 'times'}
-    </button>
-}
-
-function TrackChange(count: number, doubled: number)
-{
-    "use watch";
-
-    doubled = count * 2;
-}
-
-function Doubled(count: number, doubled)
-{
+    </button>;
     <p>{count} doubled is {doubled}</p>
+
 }

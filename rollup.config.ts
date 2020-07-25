@@ -17,7 +17,9 @@ export default {
 		file: 'public/rollup/build/bundle.js'
 	},
 	plugins: [
-		svelte_draft({ include: ["./src/**/*.tsx"] }),
+		svelte_draft({ include: ["./src/**/*.tsx"], config: {
+			DSLs: []
+		} }),
 		svelte({
 			extensions: [".tsx", ".svelte"],
 			exclude: "./src/**/*.js.tsx",

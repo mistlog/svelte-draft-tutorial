@@ -1,4 +1,4 @@
-import App from "./examples/10-transitions/custom-css-transitions/App";
+import App from "./examples/2-reactivity/reactive-declarations/App";
 // import App from "./examples/lib-sveltestrap/App";
 // import App from "./examples/lib-svelte-routing/App";
 
