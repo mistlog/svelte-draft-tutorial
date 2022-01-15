@@ -33,7 +33,7 @@
   "dependencies": {
     "elizabot": "0.0.2",
     "mapbox-gl": "^1.7.0",
-    "marked": "^0.8.0",
+    "marked": "^4.0.10",
     "sirv-cli": "^0.4.4",
     "svelte-routing": "^1.4.0",
     "sveltestrap": "^3.3.2"
